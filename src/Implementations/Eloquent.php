@@ -4,7 +4,7 @@
 namespace LaravelEasyRepository\Implementations;
 
 use Exception;
-use Illuminate\Database\Eloquent\Model;
+use MongoDB\Laravel\Eloquent\Model;
 use LaravelEasyRepository\Repository;
 
 class Eloquent implements Repository
